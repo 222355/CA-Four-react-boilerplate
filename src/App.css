@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.whole-page{
+  display: flexbox;
+  color: white;
 }
+.quiz-page{
+  background-color:rgb(163, 161, 161);
+  margin: 50px;
+  border-radius: 3%;
+}
+button{
+  border-radius: 12px;
+  border: none;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.display-quiz{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.questions{
+  width: 100%;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options{
+  width: 100%;
+  padding: 30px;
+  margin: 10px;
+  padding-left: 80px;
+}
+.options button{
+  width:80%;
+  margin: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(97, 95, 95, 0.416);
+}
+.highlight{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.highlight button{
+  padding:10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 2px;
+  background-color: rgb(197, 20, 20);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.header button{
+ margin-left: 50%;
+ background-color: black;
+ color: white;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
